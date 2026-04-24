@@ -1,0 +1,80 @@
+.base {
+  background-color: gray;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.linkpage {
+  background-color: white;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 30px 30px 70px 30px;
+}
+
+.exitbutton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.buttongoogle,
+.buttonapple,
+.info,
+.next,
+.password {
+  display: block;
+  text-align: center;
+}
+
+.twitter {
+  height: 35px;
+}
+
+.buttonapple,
+.buttongoogle,
+.next,
+.password,
+.info {
+  height: 40px;
+  margin-top: 20px;
+  width: 63%;
+}
+
+.buttonapple img,
+.buttongoogle img {
+  height: 20px;
+}
+
+.next {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+.password {
+  margin-top: 20px;
+}
+.divider {
+  margin-top: 20px;
+}
+
+.buttonapple,
+.buttongoogle,
+.password {
+  background-color: white;
+  text-align: center;
+}
+
+.buttongoogle,
+.buttonapple,
+.linkpage,
+.next,
+.password {
+  border-radius: 20px;
+}
